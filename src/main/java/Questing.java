@@ -11,7 +11,7 @@ class Questing {
 
 	static boolean quest2(String s) {
 		// 받아온 String 값을 한글자씩 잘라 왼쪽괄호일때는 Stack에 담고 오른쪽괄호일때는 Stack에 담겨있는 마지막 글자를 추출하여
-		// 괄호 쌍이 맞는지 비교를 한다. 이때, 쌍이 안맞다면 Break로 빠져나와 false로 return한다.
+		// 괄호 쌍이 맞는지 비교를 한다. 이때, 쌍이 안맞다면 Break로 빠져나와 false로 return한다. 
 		Stack<String> testStack = new Stack<String>();
 		boolean testCheck = false;
 		
